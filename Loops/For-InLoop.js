@@ -1,4 +1,4 @@
-console.log("For-In Loop on Objects and Arrays");
+console.log("For-In[index] Loop on Objects and Arrays");
 
 let student={
     fullName : "Tony Stark",
@@ -6,6 +6,7 @@ let student={
     rollNumber : 233,
 }
 
+//Iterate index inside the objects
 for(let keyVal in student){
     console.log("key = ", keyVal, " value = ", student[keyVal]);
 }
