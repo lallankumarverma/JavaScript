@@ -1,0 +1,11 @@
+console.log(typeof fullname);
+console.log(typeof age);
+console.log(typeof isMale);
+console.log(typeof salary);
+console.log(typeof x);
+console.log(typeof y);
+console.log(typeof _x);
+console.log(typeof x123);
+console.log(typeof $x);
+console.log(typeof bigSalary);
+console.log(typeof lastName);
