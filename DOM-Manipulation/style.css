@@ -1,0 +1,31 @@
+/* styling based on id*/
+#h1heading {
+    color:gold;
+    
+    
+}
+
+/* styling based on class*/
+.heading {
+    color:blueviolet;    
+}
+
+body{
+    background-color: crimson;
+}
+
+#btn1{
+    background-color:blanchedalmond;
+}
+
+#div3{
+    visibility:hidden;
+}
+
+#div2{
+    height: fit-content;
+    width: fit-content;
+    color: aquamarine;
+    background-color:darkgreen;
+    border: 1px solid black;
+}

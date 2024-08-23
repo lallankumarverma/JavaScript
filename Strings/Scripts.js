@@ -54,3 +54,44 @@ str6 = "Hello My World";
 console.log("str6 = ", str6);
 str8 = str6.charAt(1)
 console.log("charAt 1 = ", str8);
+
+//Write a function that takes in a string of one or more words, and returns the same string, but with all words that have five or more letters reversed
+//let str9 = "This is another magic of science";
+let str9 = "Welcome";
+let newStr9 = str9.split(" ", str9.length); // splits the string and return array based on seperator
+let reversed;
+
+for(let val in newStr9){
+
+    let newStr;
+
+    if(newStr9[val].length >= 5){
+       
+       let word = newStr9[val];
+       let newWord;
+
+       for(let count = word.length; count >= 0; count--)
+       {
+           if(newWord !== undefined){
+               newWord = newWord + word[count];
+           }
+           else{
+               newWord = word[count];
+           }    
+       }
+
+       newStr = newWord;
+    }
+    else{
+        newStr = newStr9[val];
+    }
+
+    if(reversed !== undefined){
+        reversed = `${reversed} ${newStr}`;
+        }
+    else{
+            reversed = newStr;   
+        }
+}
+
+console.log(reversed);
