@@ -5,6 +5,12 @@
 //<nodeElementName>.removeEventListener(<eventName>, <function>) // callback function should be same i.e btn2Handler2
 //<nodeElementName>.classList.add(<className>) // to add class
 //<nodeElementName>.classList.remove(<className>) // to remove class
+ 
+// Manual trigger calling
+// ---Create a new 'click' event
+// var event = new Event('click');
+// ----Dispatch it.
+// resetBtn.dispatchEvent(event);
 
 let btn1 = document.querySelector("#btn1");
 let btn2 = document.querySelector("#btn2");
