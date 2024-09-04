@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1{
+    background-color: #22181C;
+    color: #fff;
+    height:5dvh;
+    line-height: 5dvh;
+}
+
+.choice:hover{
+    cursor: pointer;
+    background-color: #22181C;
+}
+
+.choice{
+    height: 165px;
+    width: 165px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choiceImg{
+    height: 150px;
+    width: 150px;   
+    object-fit: cover;
+    border-radius:50%;
+}
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.score-board{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    font-size: 2rem;
+    gap: 3rem;
+    margin-top: 5rem;  
+}
+
+#user-score, #comp-score{
+    font-size: 5rem;
+}
+
+.msg-container{
+    margin-top: 5rem;
+}
+
+.msgBoxDraw{
+    background-color: black;
+    color: #fff;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;       
+}
+.msgBoxWin{
+    background-color: black;
+    color:green; 
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;      
+}
+
+.msgBoxLose{
+    background-color: black;
+    color:red; 
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;       
+}
+
+.reset:hover{
+    cursor: pointer;
+    background-color: #22181C;
+}
+
+.reset{
+    height: 165px;
+    width: 165px;
+    border-radius:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resetImage{
+    height: 150px;
+    width: 150px;   
+    object-fit: cover;
+    border-radius:50%;
+}
+
+.reset-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
